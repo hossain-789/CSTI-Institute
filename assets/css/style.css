@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --nav-bg-color: #683091;
+    --text-bg-color: #609513;
+    --btn-hover-color: #309D0D;
+
+
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navber-csti-top {
+    background-color: var(--nav-bg-color);
+    height: 50px;
+}
+
+.navber-csti-button {
+    color: white;
+    background-color: var(--btn-hover-color);
+}
+
+.navber-csti-button:hover {
+    color: white;
+    background-color: var(--text-bg-color)
+}
+
+@media screen and (max-width: 1000px) {
+    .navber-csti-top {
+        display: none;
+    }
+}
+
+.wellcome-text {
+    background: var(--text-bg-color);
+}
+
+.bk-org {
+    background-color: #609513 !important;
+    color: #fff;
+}
+
+.navber-top-text li,
+a {
+    margin: 0px 20px 0px 0px;
+}
+
+.nav-imgSlider {
+    width: 100%;
+    height: 400px;
+    background-image: url("../image/banner/img-1.jpg");
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url("../image/banner/img-1.jpg");
+    }
+
+    25% {
+        background-image: url("../image/banner/img-2.jpg");
+    }
+
+    50% {
+        background-image: url("../image/banner/img-3.jpg");
+    }
+
+    75% {
+        background-image: url("../image/banner/img-4.jpg");
+    }
+}
+
+/* navber-list-items */
+.navber-togg-button {
+    font-size: 12px;
+}
+
+.navber-list-items li,
+a {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* bord-notice */
+.notic-bord-image{
+    background-image: url("../image/logo/bg_notice_board.png");
+    background-repeat: no-repeat;
+    padding: 10px 0 20px 120px;
+}
+
+@media only screen and (max-width: 979px) {
+    .notic-bord-image {
+        padding: 0 0 20px 10px;
+        background: none;
+    }
+}
+
+.notice-board-ticker li{
+    background-image: url("../image/icon/bullet_tick.png") ;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.notice-board-ticker ul a {
+    margin-left: 20px;
+    border-bottom: 1px dotted #666;
+
+}
+
+/* designation */
+@media only screen and (max-width: 576px) {
+    .designation-contain-body{
+        display: none !important;
+    }
+}
+
+
+.designation-title{
+    background-color: var(--text-bg-color) !important;
+}
+
+.designation-descrip p, a{
+    color: #000;
+    font-size: 12px;
+    font-weight: 100;
+    margin-bottom: 5px !important;
+}
+

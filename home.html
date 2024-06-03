@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>csti</title>
+</head>
+
+<body>
+    <!-- navber-top -->
+    <nav class="navbar navber-csti-top">
+        <div class="container">
+            <div class="navber-top">
+                <ul class="navber-top-text flex-wrap d-flex align-items-center">
+                    <li class="navbar-mpo text-white">
+                        <a class="fs-6 text-white">M.P.O. CODE : 0805091302 </a>
+                    </li>
+                    <li class="navbar-mpo text-white">
+                        <a class="fs-6 text-white">EIIN: 105998</a>
+                    </li>
+                    <li class="navbar-clock text-white d-flex text-white align-items-center">
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="mx-2" id="time"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <form class="d-flex navber-top-from" role="search">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control form-control-sm input-group-sm rounded-0 " placeholder=""
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn navber-csti-button btn-sm rounded-0" type="button"
+                        id="button-addon2">Search</button>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- navber-imgSlider -->
+    <div class="nav-imgSlider">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="nav-heading d-flex align-items-center flex-wrap" style="margin-top: 10%;">
+                        <div class="nav-logo">
+                            <img src="./assets/image/logo/csti logo.jpg" class="rounded-circle" width="70%" alt="">
+                        </div>
+                        <div class="nav-text text-white">
+                            <h2 class="fw-bold" style="text-shadow: #FC0 1px 0 10px;">চিটাগাং সায়েন্স এন্ড টেকনোলজি
+                                ইন্সটিটিউট</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navber-wlc -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="column block mt-1" style="letter-spacing: 3px;">
+                    <p class="bk-org title text-center pt-1 pb-1">চিটাগাং সায়েন্স এন্ড টেকনোলজি
+                        ইন্সটিটিউটে স্বাগতম</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navber-list -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container" style="margin-top: -20px;">
+            <button class="navbar-toggler navber-togg-button btn-sm rounded-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav navber-list-items flex-wrap">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="font-size: 22px; color: #737373;" aria-current="page"
+                            href="#"><i class="fa-solid fa-house-chimney-window"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #C40A2A;">পরিচিতি</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #84154D;">একাডেমিক</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="color: #098346;">
+                            পাঠ্যক্রম সম্পর্কে
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">পেইজ-১</a></li>
+                            <li><a class="dropdown-item" href="#">পেইজ-২</a></li>
+                            <li><a class="dropdown-item" href="#">পেইজ-৩</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #1399BE">ভর্তি</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #8768DE">বিভাগসমূহ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #FF7113;">ইন্ডাস্ট্রি লিংকেজ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #C40A2A">গ্যালারি</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #098346;">লাইব্রেরি</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #1399BE">যোগাযোগ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- news-and-designation -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-md-9 col-lg-9">
+                <div class="scroll-notic d-flex align-items-center">
+                    <div class="nav-notic-textalign-items-center mx-2">
+                        <p class="fw-bold mt-2">নোটিশ:</p>
+                    </div>
+                    <div class="nav-scroll-notic mt-1" style="width: 100%;">
+                        <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                            <a href="./assets/image/file/7594.pdf" target="blank" style="font-size: 13px;">২০২৪ সালের
+                                এস.এস.সি পরীক্ষার্থীদের সমাপনী পরীক্ষার
+                                সময়সূচী</a>
+                        </marquee>
+                    </div>
+                </div>
+                <!-- notic-bord -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 mt-3">
+                        <div class="notic-bord-bg">
+                            <div class="card rounded-0 bg-body-tertiary">
+                                <div class="card-body notic-bord-image">
+                                    <h2 class="fs-6 fw-light mt-4">নোটিশ বোর্ড</h2>
+                                    <div class="notice-board-ticker d-flex align-items-center mt-4">
+                                        <ul>
+                                            <li>
+                                                <a href="./assets/image/file/7594.pdf" target="blank"
+                                                    style="font-size: 13px; color: #000;">
+                                                    এস.এস.সি পরীক্ষার্থীদের সমাপনী পরীক্ষার সময়সূচী</a>
+                                            </li>
+                                            <li>
+                                                <a href="./assets/image/file/7594.pdf" target="blank"
+                                                    style="font-size: 13px; color: #000;">ও ৮ম পর্ব অনিয়মিত পরীক্ষা
+                                                    ২০২৩ এর সময়সূচি ডিপ্লোমা-ইন- ইঞ্জিনিয়ারিং</a>
+                                            </li>
+                                            <li>
+                                                <a href="./assets/image/file/7594.pdf" target="blank"
+                                                    style="font-size: 13px; color: #000;">শিক্ষাক্রমের ১ম, ৩য়, ৫ম ও ৭ম
+                                                    পর্ব নিয়মিত ও ৮ম পর্ব অনিয়মিত পরীক্ষা
+                                                    ২০২৩ এর সময়সূচি</a>
+                                            </li>
+                                            <li>
+                                                <a href="./assets/image/file/7594.pdf" target="blank"
+                                                    style="font-size: 13px; color: #000;">সালের
+                                                    এস.এস.সি পরীক্ষার্থীদের সমাপনী </a>
+                                            </li>
+                                            <li>
+                                                <a href="./assets/image/file/7594.pdf" target="blank"
+                                                    style="font-size: 13px; color: #000;">পরীক্ষার্থীদের সমাপনী পরীক্ষার
+                                                    সময়সূচী</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- map -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="map">
+                            <div class="designation-title mt-4">
+                                <p class="text-white ms-2" style="line-height: 40px;">ম্যাপ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="road-map-plus">
+                            <iframe width="100%" height="315"
+                                src="https://www.youtube.com/embed/jwu8vMQWspM?si=obHkK98QrZG1l0eB"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="road-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14757.91069661405!2d91.8151126!3d22.373343!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd861c66bb7d9%3A0x876d83f8d6da2ed2!2sCSTI!5e0!3m2!1sen!2sbd!4v1717303041036!5m2!1sen!2sbd"
+                                width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- gift-for-shaikh-hasina -->
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="map">
+                            <div class="designation-title mt-4">
+                                <p class="text-white ms-2" style="line-height: 40px;">আশ্রয়ণের অধিকার শেখ হাসিনার উপহার
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="road-map-plus">
+                            <iframe width="100%" height="200"
+                                src="https://www.youtube.com/embed/z6llDxY5JFs?si=Ls9V6nnKt9vvS7zv"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="road-map">
+                            <iframe width="100%" height="200"
+                                src="https://www.youtube.com/embed/l7G3TPz6P24?si=aZEIcMpJg__GKocj"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <div class="road-map">
+                            <iframe width="100%" height="200"
+                                src="https://www.youtube.com/embed/MvTLqrU9ZbQ?si=xVc4VChHBV1fpBSe"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- designation-contain-body -->
+            <div class="col-sm-3 col-md-3 col-lg-3 designation-contain-body">
+                <div class="the-principal">
+                    <div class="designation-title">
+                        <p class="text-white ms-2" style="line-height: 40px;">অধ্যক্ষ</p>
+                    </div>
+                    <div class="principal-body mt-4">
+                        <div class="principal-img text-center">
+                            <img src="./assets/image/admin/principle.png" width="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="text-center designation-descrip mt-4">
+                        <p>প্রকৌশলী মোঃ ইয়াসিন </p>
+                        <p>অধ্যক্ষ</p>
+                        <p>চট্টগ্রাম পলিটেকনিক ইনস্টিটিউট </p>
+                        <p class="text-end mt-2"><a href="#" target="_blank"
+                                style="border-bottom: 1px dotted #666;">বিস্তারিত...</a></p>
+                    </div>
+                </div>
+                <!-- stipend -->
+                <div class="designation-title mt-4">
+                    <p class="text-white ms-2" style="line-height: 40px;">উপবৃত্তি নোটিশ</p>
+                </div>
+                <div>
+                    <p><a href="#" target="_blank" style="color: #666;">উপবৃত্তি নোটিশ</a></p>
+                </div>
+                <!-- Academic-Calendar -->
+                <div class="designation-title mt-4">
+                    <p class="text-white ms-2" style="line-height: 40px;">একাডেমিক ক্যালেন্ডার</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- notic-bord
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-md-9 col-lg-9 mt-3">
+                    <div class="notic-bord-bg">
+                        <div class="card rounded-0 bg-body-tertiary">
+                            <div class="card-body notic-bord-image">
+                                <h2 class="fs-6 fw-light mt-4">নোটিশ বোর্ড</h2>
+                                <div class="notice-board-ticker d-flex align-items-center mt-4">
+                                    <ul>
+                                        <li>
+                                            <a href="./assets/image/file/7594.pdf" target="blank"
+                                                style="font-size: 13px; color: #000;">২০২৪ সালের
+                                                এস.এস.সি পরীক্ষার্থীদের সমাপনী পরীক্ষার সময়সূচী</a>
+                                        </li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#"></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- js -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
