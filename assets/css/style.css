@@ -24,6 +24,7 @@ li {
     height: 50px;
 }
 
+
 .navber-csti-button {
     color: white;
     background-color: var(--btn-hover-color);
@@ -92,8 +93,28 @@ a {
     font-weight: 100;
 }
 
+.dropdown-mega .dropdown-menu{
+    /* width: 100%; */
+    width: calc(100%-300px);
+}
+
+.dropdown-mega h5{
+    font-size: 15px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0,0,0,.123);
+    margin: 0px;
+}
+
+.list-group .list-group-item{
+    font-size: 14px;
+    color: #000 !important;
+    border: 0px;
+    border-bottom: 1px solid rgba(0,0,0,.123);
+    padding: 12px 0;
+}
+
 /* bord-notice */
-.notic-bord-image{
+.notic-bord-image {
     background-image: url("../image/logo/bg_notice_board.png");
     background-repeat: no-repeat;
     padding: 10px 0 20px 120px;
@@ -106,8 +127,8 @@ a {
     }
 }
 
-.notice-board-ticker li{
-    background-image: url("../image/icon/bullet_tick.png") ;
+.notice-board-ticker li {
+    background-image: url("../image/icon/bullet_tick.png");
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -120,20 +141,20 @@ a {
 
 /* designation */
 @media only screen and (max-width: 576px) {
-    .designation-contain-body{
+    .designation-contain-body {
         display: none !important;
     }
 }
 
 
-.designation-title{
+.designation-title {
     background-color: var(--text-bg-color) !important;
 }
 
-.designation-descrip p, a{
+.designation-descrip p,
+a {
     color: #000;
     font-size: 12px;
     font-weight: 100;
     margin-bottom: 5px !important;
 }
-
